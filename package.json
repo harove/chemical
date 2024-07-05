@@ -1,0 +1,21 @@
+{
+  "name": "chemical",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app.js",
+  "scripts": {
+    "dev": "nodemon -e js,html,css ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  }
+}
