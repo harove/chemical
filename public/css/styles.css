@@ -10991,6 +10991,28 @@ header.masthead .masthead-heading {
   margin-left: auto;
   margin-right: auto;
 }
+
+#portfolio .portfolio-item img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+
+.gallery-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-height: 250px; */
+}
+
+.gallery-item img {
+  height: 500px;
+  width: 100%;
+  object-fit:cover;
+}
+
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
